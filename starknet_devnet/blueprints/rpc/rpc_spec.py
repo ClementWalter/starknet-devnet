@@ -934,7 +934,7 @@ RPC_SPECIFICATION = r"""
                 "title": "Field element",
                 "$comment": "A field element, represented as a string of hex digits",
                 "description": "A field element. Represented as up to 63 hex digits and leading 4 bits zeroed.",
-                "pattern": "^0x0[a-fA-F0-9]{1,63}$"
+                "pattern": "^0x0?[a-fA-F0-9]{1,63}$"
             },
             "BLOCK_NUMBER": {
                 "description": "The block's number (its height)",
